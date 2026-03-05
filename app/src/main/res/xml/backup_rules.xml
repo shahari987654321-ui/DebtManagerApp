@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Sample backup rules. In a real app, you would
+   configure these rules for your app.
+-->
+<full-backup-content>
+    <include domain="file" path="."/>
+    <include domain="database" path="."/>
+    <include domain="sharedpref" path="."/>
+</full-backup-content>
